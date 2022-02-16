@@ -12,6 +12,6 @@ print(100*100)
 
 #Also that we have about 988,000 possible values; 
 
-
+Hmmm. I'm a bit stuck here. I'll explore and see what I can come up with. More later. 
 
 

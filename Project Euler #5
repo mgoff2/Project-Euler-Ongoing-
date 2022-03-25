@@ -1,0 +1,17 @@
+SoS = []
+for i in range(1,101):
+    SoS.append(i**2)
+
+print(sum(SoS))             
+
+SqoS = []
+for i in range(1,101):
+    SqoS.append(i)
+beta = sum(SqoS)**2
+
+print(beta - sum(SoS))
+
+
+Nothing too complicated here: For part 1, find the sum of the squared values 1-100.
+For part two, find the squared sum.
+Subtract part 1 from part 2.

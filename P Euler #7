@@ -1,0 +1,27 @@
+alpha = 2
+beta = 15
+compsA = []
+primesA = [2,3,5,7,11,13]
+
+while len(primesA) != 10001:
+    beta = beta + 2
+    delta = (beta//3)
+    for i in range(alpha, delta, 2):          
+        z = i+1
+        if beta % z == 0:
+            compsA.append(beta)
+            break
+        else:
+            continue
+    if beta not in compsA:
+        primesA.append(beta)
+        
+Sol = sorted(primesA, reverse=True)
+print(Sol[:1])
+
+
+Basically, the reasoning is to skip those early primes that have trickier rules.
+Then, eliminate all even divisors and dividends.
+Then, test only as many values as necessary to get the FIRST divisor to break the loop, rather than checking a whole range. 
+
+This processes in about 7 seconds on my MSI, about the same on Jupyter

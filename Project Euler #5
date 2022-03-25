@@ -1,0 +1,16 @@
+So... This one. This is kind of weird. 
+So basically, this is a least common multiple problem
+
+20 = 2,5,10 19 = 19 18 = 3,6,9 17 = 17 16 = 8,4,2 15 = 5,3 14 = 2,7 13 = 13 12 = 2,3,4,6 11 = 11 10 = 2,5 9 = 3 8 = 2,4 7 = 7 6 = 3,2 5 = 5 4 = 2 3 = 3 2 = 2 1 = 1
+
+So:1, 2, 3, 4, 5, 6, 7, 11, 13, 17, 19
+
+I got the answer but I can't figure out how to program it.
+
+I  don't feel too bad about doing this one raw power by hand... Many of the posts on PE report having done the same. It's more easily solved with logic than it
+is solved by computing. I guess it's kind of cheating, but what are computers for, eh?
+
+a = 19*17*13*11*7*3*5*4*6*2
+print(a)
+b = a/12
+print(b)

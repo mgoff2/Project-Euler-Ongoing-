@@ -1,4 +1,0 @@
-# Obviously problem 1 can be solved with just a list comprehension to the effect of: 
-
-def PE_1()
-return (sum([i for i in range(1000) if i % 3 == 0 or i % 5 ==0]))
